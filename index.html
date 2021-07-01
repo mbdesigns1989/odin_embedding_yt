@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+	<title>Youtube Clone </title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet"/>
+  </head>
+  
+  <body>
+	<header>
+		<div id="left-header">
+				<img id="menu-button" src="images/menu.svg">
+				<img id="youtube-logo" src="images/youtube-logo.svg">
+				<div id="youtube-name">YouTube<sup>EG</sup></div>
+		</div>
+		
+		<div class="search-bar">
+			<input class="search-input" type="text" placeholder="Search"/>	
+			<button class="search-btn">
+				<img id="magnify-glass" src="images/magnify-glass.svg">	
+			</button>	
+		</div>
+	
+		<div class="right-header">
+			<button class="btn apps-btn">
+				<img src="images/apps.png"/>
+			</button>
+			<button class="btn options-btn">
+				<img src="images/dots-vertical-white.png"/>
+			</button>
+			<button class="btn sign-btn">
+				<img src="images/account-circle.png"/>
+				<span>SIGN IN</span>
+			</button>
+		</div>		
+	
+	</header>
+	
+	<div class="page-content">
+	
+		<section class="video-content">
+
+			<iframe src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+			<div id="video-info">
+				<h1 id="video-title">
+					Contributing to Open Source Part I: The Easy Way
+				</h1>
+				
+				<div id="video-stats">
+					<div id="video-views">
+						63,342 viewsFeb 28, 2014
+					</div>
+					<div id="likes-dislikes">
+						<div id="thumbs-up-down">
+							<div class="likes">
+								<img id="thumb-up" src="images/thumb-up.png"> 
+								<span>464</span>
+							</div>
+							<div class="likes">
+								<img id="thumb-down" src="images/thumb-down.png"> 
+								<span>19</span>
+							</div>
+						</div>
+						<div class="likes">
+							<img id="share" src="images/share.png"> 
+							<span>SHARE</span>
+						</div>
+						<div class="likes">
+							<img src="images/playlist-plus.png"> 
+							<span>SAVE</span>
+						</div>
+						<div class="likes">
+							<img id="more-options" src="images/dots-horizontal.png">
+						</div>
+					</div>
+				</div>
+				
+				<div id="owner-info">
+					<div class="user-profile">
+						<a href="https://www.youtube.com/channel/UCk0b0VTnJxXbxupXJ4D2yjQ" target="_blank">
+							<img id="magnify-glass" src="https://yt3.ggpht.com/ytc/AKedOLQWQsZo8xQGCXc6BgOVTPy2tQD7n9JjHat05g=s88-c-k-c0x00ffffff-no-rj">
+						</a>
+					</div>
+					<div id="name-subscribers">
+						<div id="author-name">
+							<a href="https://www.youtube.com/channel/UCk0b0VTnJxXbxupXJ4D2yjQ" target="_blank">
+								The Odin Project	
+							</a>
+						</div>
+						<div id="number-subscriber">
+							1.05K subscribers
+						</div>
+					</div>
+
+					<div id="subscribe-author">
+						SUBSCRIBE
+					</div>
+				</div>
+			
+				<div id="clip-info">
+
+					<p>How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of contributions open source software projects are typically looking for.  As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails.  You can find more information about that project at http://theodinproject.com.
+                    </p>
+					
+				</div>
+				
+				<div id="show-more">
+					SHOW MORE
+				</div>
+				
+			</div>
+			
+			<div id="comments">
+
+				<div id="comments-title">
+					<div>
+						18 Comments
+
+					</div>
+					<button id="sort-by">
+						<img id="magnify-glass" src="images/sort-variant.png"> <span>SORT BY</span>
+					</button>
+				</div>
+				
+				<div id="sign-in-user">
+					<div class="user-profile">
+						<img id="magnify-glass" src="images/avatar_guest.png"> 
+					</div>
+					<div id="add-comment">
+						<input type="text" name="firstname" value="Add a public comment..."> 
+					</div>
+				</div>
+				
+				<div id="users-comments">
+				
+					<div class="comment-user">
+					
+							<div class="user-profile">
+								<a href="https://www.youtube.com/channel/UC9JeXrFSHHOdmAWZuBrLKJw">
+									<img id="magnify-glass" src="https://yt3.ggpht.com/ytc/AKedOLRBVfmEBA5woW8bisUB5rh-g7GEvNwsLZkA1ZI0Ig=s88-c-k-c0x00ffffff-no-rj">
+								</a>
+							</div>
+							
+							<div class="name-comment">
+								<div class="user-name">
+									Christine Fredricksen
+                                    <span class="comment-date">9 months ago</span>
+								</div>
+	
+								<div class="comment-content">
+									Thanks so much ! This video was really helpful and to the point. 
+								</div>
+								
+								<div class="comment-rate">
+									<img class="thumb-up-small" src="images/thumb-up.png"> <span></span>
+									<img class="thumb-down-small" src="images/thumb-down.png">
+									<span>REPLY</span>
+								</div>									
+							</div>
+	
+					</div>
+				
+					 		
+						
+						</div>
+					</div>	
+				</div>
+				
+			</div>
+		</section>
+
+
+
+		
+		<aside id="sidebar">
+
+			<a class="recommend" href="https://www.youtube.com/watch?v=es7V3S4-Pkk" target="_blank">
+				<div class="video-recommend">
+					<img  src="https://i.ytimg.com/an_webp/es7V3S4-Pkk/mqdefault_6s.webp?du=3000&sqp=CKy284YG&rs=AOn4CLDiX9RpPImArk8DUGHZIQWz1VMvEA">
+					<div class="video-length">
+						<span>1:00:14</span>
+					</div>	
+					
+					<div class="video-icons">
+						<button class="btn">
+							<img id="add-playlist" src="images/clock-outline.png">
+						</button>
+						<button class="btn">
+							<img id="watch-later" src="images/playlist-play.png">
+						</button>
+					</div>
+				</div>	
+				
+				<div class="recommend-info">
+					<h3 class="recommend-title">
+						GitHub and Open Source Documentation
+					</h3>
+					<div class="recommend-author">
+						Information Developers Foundation
+												
+					</div>
+					<div class="recommend-views">1.1K views  3 years ago</div>	
+				</div>
+				
+				<div class="vertical-dots">
+					<img src="images/dots-vertical.png">
+				</div>			
+			</a>
+			
+			
+
+
+
+
+
+
+
+			<a class="recommend" href="https://www.youtube.com/watch?v=mENDYhfxH-o" target="_blank">
+				<div class="video-recommend">
+					<img  src="https://i.ytimg.com/an_webp/mENDYhfxH-o/mqdefault_6s.webp?du=3000&sqp=CNC984YG&rs=AOn4CLDgnp2PLx9Os231rd-GTYZ-TxqN7A">
+					<div class="video-length">
+						<span>14:25</span>
+					</div>	
+					
+					<div class="video-icons">
+						<button class="btn">
+							<img id="add-playlist" src="images/clock-outline.png">
+						</button>
+						<button class="btn">
+							<img id="watch-later" src="images/playlist-play.png">
+						</button>
+					</div>
+				</div>	
+				
+				<div class="recommend-info">
+					<h3 class="recommend-title">
+						Contributing to Open Source Part II: The Real Way
+					</h3>
+					<div class="recommend-author">
+						The Odin Project					
+					</div>
+					<div class="recommend-views">37K viewS  7 years ago</div>	
+				</div>
+				
+				<div class="vertical-dots">
+					<img src="images/dots-vertical.png">
+				</div>			
+			</a>
+
+
+
+
+
+
+		</aside>
+		
+	</div>
+  
+  </body>
